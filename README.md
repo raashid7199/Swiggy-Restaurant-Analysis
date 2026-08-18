@@ -44,6 +44,3 @@ Combining high average rating with low average cost, Mylapore and Adyar (Chennai
 
 ## Files
 - `swiggy_analysis.sql` — full CREATE TABLE, cleaning, and all 8+ analysis queries (ready to run in DB Browser for SQLite)
-
-## Resume line
-> Analysed 148,000+ Swiggy restaurant records across Indian cities using SQL — identified top cuisines, pricing patterns, and locality-wise performance trends
