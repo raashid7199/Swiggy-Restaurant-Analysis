@@ -41,7 +41,6 @@ Combining high average rating with low average cost, Mylapore and Adyar (Chennai
 
 **7. Highly rated & well-reviewed restaurants**
 123 restaurants have a rating of 4.5+ with 1,000 or more ratings. Ice cream/sweets specialists (NIC Natural Ice Creams, The Grand Sweets and Snacks) and biryani chains (Behrouz Biryani) feature prominently.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-***Source Code***
+
 ## Files
 - `swiggy_analysis.sql` — full CREATE TABLE, cleaning, and all 8+ analysis queries (ready to run in DB Browser for SQLite)
