@@ -21,26 +21,27 @@ SQLite via DB Browser for SQLite. Full script: [`swiggy_analysis.sql`](./swiggy_
 
 ## Key Findings
 
-**Most restaurants listed (by city/locality)**
+**1. Most restaurants listed (by city/locality)**
 Bikaner tops the list with 1,666 listings, ahead of Noida-1 (1,428) and Indirapuram, Delhi (1,279). Several Delhi, Bangalore, Pune and Mumbai localities round out the top 10 — the dataset is scraped at a locality level (e.g. "BTM,Bangalore"), not just city level.
 
-**Most popular cuisine nationally**
+**2. Most popular cuisine nationally**
 As combo tags, `North Indian,Chinese` is the single most listed combination (6,471 restaurants), followed by `Indian` alone (6,414) and `Chinese` alone (5,051). When cuisine tags are split individually (see Q2b in the SQL file), Indian, Chinese, and North Indian dominate as standalone tags — reflecting how broadly these cuisines are offered across India.
 
-**Restaurant chain with the most branches**
+**3. Restaurant chain with the most branches**
 Domino's Pizza leads with 442 branches on Swiggy, followed by Pizza Hut (319) and KFC (309). Quick-service and dessert chains (Kwality Wall's, Baskin Robbins, Subway) round out the top 10.
 
-**Best-rated city/locality (50+ restaurants)**
+**4. Best-rated city/locality (50+ restaurants)**
 Mylapore, Chennai has the highest average rating (4.23) among localities with more than 50 rated restaurants, closely followed by South Kolkata, Frazer Town (Bangalore), and Adyar (Chennai) — all around 4.2.
 
-**Most expensive vs. cheapest places to eat**
+**5. Most expensive vs. cheapest places to eat**
 Khan Market, Delhi is the most expensive locality by average cost-for-two (₹601), followed by Fort Colaba, Mumbai (₹493) and North Goa (₹468) — premium/tourist areas dominate the top of this list. On the other end, smaller towns like Bathinda (₹167) and Ichalkaranji (₹168) are the cheapest.
 
-**Best value for money**
+**6. Best value for money**
 Combining high average rating with low average cost, Mylapore and Adyar (Chennai) and Burrabazar (Kolkata) stand out as strong value picks — high ratings (4.1–4.2) at moderate cost (₹291–₹350).
 
-**Highly rated & well-reviewed restaurants**
+**7. Highly rated & well-reviewed restaurants**
 123 restaurants have a rating of 4.5+ with 1,000 or more ratings. Ice cream/sweets specialists (NIC Natural Ice Creams, The Grand Sweets and Snacks) and biryani chains (Behrouz Biryani) feature prominently.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Source Code***
 ## Files
 - `swiggy_analysis.sql` — full CREATE TABLE, cleaning, and all 8+ analysis queries (ready to run in DB Browser for SQLite)
